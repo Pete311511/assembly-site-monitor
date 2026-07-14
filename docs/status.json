@@ -1,0 +1,10 @@
+{
+  "app": "Assembly Site Monitor",
+  "now": null,
+  "overall": "checking",
+  "last_run_finished": null,
+  "results": [],
+  "incidents": [],
+  "history": [],
+  "build": {}
+}
