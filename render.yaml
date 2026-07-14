@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: assembly-site-monitor
+    runtime: python
+    plan: starter
+    buildCommand: ""
+    startCommand: "python monitor_server.py"
+    healthCheckPath: /healthz
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: CHECK_INTERVAL_SECONDS
+        value: 60
+      - key: MONITOR_USERNAME
+        value: assembly
+      - key: MONITOR_PASSWORD
+        sync: false
