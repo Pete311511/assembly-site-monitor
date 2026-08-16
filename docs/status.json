@@ -1,8 +1,8 @@
 {
   "app": "Assembly Site Monitor",
-  "now": "2026-08-16T14:16:39Z",
+  "now": "2026-08-16T14:43:33Z",
   "overall": "red",
-  "last_run_finished": "2026-08-16T14:16:39Z",
+  "last_run_finished": "2026-08-16T14:43:33Z",
   "results": [
     {
       "id": "home",
@@ -12,11 +12,11 @@
       "critical": true,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 224,
+      "response_ms": 239,
       "bytes": 8361,
       "title": "",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:32Z"
+      "checked_at": "2026-08-16T14:43:25Z"
     },
     {
       "id": "whats-on",
@@ -26,11 +26,11 @@
       "critical": true,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 685,
+      "response_ms": 654,
       "bytes": 348380,
       "title": "What's On | Assembly Festival | Edinburgh Fringe 2026",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:32Z"
+      "checked_at": "2026-08-16T14:43:26Z"
     },
     {
       "id": "venues",
@@ -40,11 +40,11 @@
       "critical": true,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 484,
-      "bytes": 189221,
+      "response_ms": 1360,
+      "bytes": 189316,
       "title": "Our Venues | Assembly Festival",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:33Z"
+      "checked_at": "2026-08-16T14:43:27Z"
     },
     {
       "id": "access",
@@ -54,11 +54,11 @@
       "critical": false,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 938,
+      "response_ms": 915,
       "bytes": 135700,
       "title": "Access | Assembly Festival",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:34Z"
+      "checked_at": "2026-08-16T14:43:28Z"
     },
     {
       "id": "faqs",
@@ -68,11 +68,11 @@
       "critical": false,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 894,
+      "response_ms": 552,
       "bytes": 171315,
       "title": "FAQs | Assembly Festival",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:35Z"
+      "checked_at": "2026-08-16T14:43:29Z"
     },
     {
       "id": "api-home",
@@ -82,11 +82,11 @@
       "critical": true,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 133,
+      "response_ms": 102,
       "bytes": 2877,
       "title": "",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:35Z"
+      "checked_at": "2026-08-16T14:43:29Z"
     },
     {
       "id": "api-whats-on",
@@ -96,11 +96,11 @@
       "critical": true,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 142,
+      "response_ms": 112,
       "bytes": 841,
       "title": "",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:35Z"
+      "checked_at": "2026-08-16T14:43:29Z"
     },
     {
       "id": "api-alerts",
@@ -110,11 +110,11 @@
       "critical": false,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 241,
+      "response_ms": 322,
       "bytes": 2,
       "title": "",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:35Z"
+      "checked_at": "2026-08-16T14:43:29Z"
     },
     {
       "id": "api-sponsors",
@@ -124,11 +124,11 @@
       "critical": false,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 269,
+      "response_ms": 117,
       "bytes": 7222,
       "title": "",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:35Z"
+      "checked_at": "2026-08-16T14:43:29Z"
     },
     {
       "id": "api-partners",
@@ -138,11 +138,11 @@
       "critical": false,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 240,
+      "response_ms": 273,
       "bytes": 1224,
       "title": "",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:36Z"
+      "checked_at": "2026-08-16T14:43:30Z"
     },
     {
       "id": "shows-search",
@@ -152,11 +152,11 @@
       "critical": true,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 668,
-      "bytes": 215580,
+      "response_ms": 913,
+      "bytes": 251121,
       "title": "",
       "message": "240 shows found; 12/12 sample shows have performances",
-      "checked_at": "2026-08-16T14:16:36Z"
+      "checked_at": "2026-08-16T14:43:31Z"
     },
     {
       "id": "ticket-availability",
@@ -166,11 +166,11 @@
       "critical": true,
       "status": "broken",
       "http_status": 200,
-      "response_ms": 1706,
-      "bytes": 138609,
+      "response_ms": 1550,
+      "bytes": 144344,
       "title": "",
-      "message": "0/3 sample performances returned bookable prices; first issue: Casey Filips: What a Character: HTTP 500",
-      "checked_at": "2026-08-16T14:16:38Z"
+      "message": "0/3 sample performances returned bookable prices; first issue: The Raft of the Crab: HTTP 500",
+      "checked_at": "2026-08-16T14:43:32Z"
     },
     {
       "id": "cms-health",
@@ -180,11 +180,11 @@
       "critical": true,
       "status": "ok",
       "http_status": 200,
-      "response_ms": 1229,
+      "response_ms": 955,
       "bytes": 15,
       "title": "",
       "message": "OK",
-      "checked_at": "2026-08-16T14:16:39Z"
+      "checked_at": "2026-08-16T14:43:33Z"
     }
   ],
   "incidents": [
@@ -3740,200 +3740,6 @@
     }
   ],
   "history": [
-    {
-      "checked_at": "2026-08-12T17:43:56Z",
-      "overall": "red",
-      "results": [
-        {
-          "id": "home",
-          "label": "Homepage",
-          "url": "https://assemblyfestival.com/",
-          "kind": "page",
-          "critical": true,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 132,
-          "bytes": 8361,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:50Z"
-        },
-        {
-          "id": "whats-on",
-          "label": "What's On",
-          "url": "https://assemblyfestival.com/whats-on",
-          "kind": "page",
-          "critical": true,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 72,
-          "bytes": 4521,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:50Z"
-        },
-        {
-          "id": "venues",
-          "label": "Venues",
-          "url": "https://assemblyfestival.com/venues",
-          "kind": "page",
-          "critical": true,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 1243,
-          "bytes": 185715,
-          "title": "Our Venues | Assembly Festival",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:51Z"
-        },
-        {
-          "id": "access",
-          "label": "Access",
-          "url": "https://assemblyfestival.com/access",
-          "kind": "page",
-          "critical": false,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 818,
-          "bytes": 132185,
-          "title": "Access | Assembly Festival",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:52Z"
-        },
-        {
-          "id": "faqs",
-          "label": "FAQs",
-          "url": "https://assemblyfestival.com/faqs",
-          "kind": "page",
-          "critical": false,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 715,
-          "bytes": 167752,
-          "title": "FAQs | Assembly Festival",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:53Z"
-        },
-        {
-          "id": "api-home",
-          "label": "API: home page",
-          "url": "https://assemblyfestival.com/api/pages/home",
-          "kind": "api",
-          "critical": true,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 97,
-          "bytes": 2877,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:53Z"
-        },
-        {
-          "id": "api-whats-on",
-          "label": "API: what's on page",
-          "url": "https://assemblyfestival.com/api/pages/whats-on",
-          "kind": "api",
-          "critical": true,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 77,
-          "bytes": 841,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:53Z"
-        },
-        {
-          "id": "api-alerts",
-          "label": "API: alerts",
-          "url": "https://assemblyfestival.com/api/alerts",
-          "kind": "api",
-          "critical": false,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 247,
-          "bytes": 2,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:53Z"
-        },
-        {
-          "id": "api-sponsors",
-          "label": "API: sponsors",
-          "url": "https://assemblyfestival.com/api/sponsors",
-          "kind": "api",
-          "critical": false,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 78,
-          "bytes": 7222,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:53Z"
-        },
-        {
-          "id": "api-partners",
-          "label": "API: partners",
-          "url": "https://assemblyfestival.com/api/partners",
-          "kind": "api",
-          "critical": false,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 251,
-          "bytes": 1224,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:53Z"
-        },
-        {
-          "id": "shows-search",
-          "label": "Shows loading",
-          "url": "https://assemblyfestival.com/api/projects/search?limit=12&page=1",
-          "kind": "projects-search",
-          "critical": true,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 584,
-          "bytes": 213475,
-          "title": "",
-          "message": "244 shows found; 10/10 sample shows have performances",
-          "checked_at": "2026-08-12T17:43:54Z"
-        },
-        {
-          "id": "ticket-availability",
-          "label": "Ticket availability",
-          "url": "https://assemblyfestival.com/api/projects/search?limit=8&page=1",
-          "kind": "ticket-availability",
-          "critical": true,
-          "status": "broken",
-          "http_status": 200,
-          "response_ms": 1277,
-          "bytes": 130261,
-          "title": "",
-          "message": "0/3 sample performances returned bookable prices; first issue: Swamp Romp: HTTP 500",
-          "checked_at": "2026-08-12T17:43:55Z"
-        },
-        {
-          "id": "cms-health",
-          "label": "CMS health",
-          "url": "https://assemblyfestival.pazaz.studio/server/health",
-          "kind": "cms",
-          "critical": true,
-          "status": "ok",
-          "http_status": 200,
-          "response_ms": 1012,
-          "bytes": 15,
-          "title": "",
-          "message": "OK",
-          "checked_at": "2026-08-12T17:43:56Z"
-        }
-      ],
-      "build": {
-        "checked_at": "2026-08-12T17:43:56Z",
-        "fingerprint": "e3b0c44298fc1c14",
-        "asset_count": 0,
-        "assets": []
-      }
-    },
     {
       "checked_at": "2026-08-12T18:40:36Z",
       "overall": "red",
@@ -30071,10 +29877,204 @@
         "asset_count": 0,
         "assets": []
       }
+    },
+    {
+      "checked_at": "2026-08-16T14:43:33Z",
+      "overall": "red",
+      "results": [
+        {
+          "id": "home",
+          "label": "Homepage",
+          "url": "https://assemblyfestival.com/",
+          "kind": "page",
+          "critical": true,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 239,
+          "bytes": 8361,
+          "title": "",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:25Z"
+        },
+        {
+          "id": "whats-on",
+          "label": "What's On",
+          "url": "https://assemblyfestival.com/whats-on",
+          "kind": "page",
+          "critical": true,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 654,
+          "bytes": 348380,
+          "title": "What's On | Assembly Festival | Edinburgh Fringe 2026",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:26Z"
+        },
+        {
+          "id": "venues",
+          "label": "Venues",
+          "url": "https://assemblyfestival.com/venues",
+          "kind": "page",
+          "critical": true,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 1360,
+          "bytes": 189316,
+          "title": "Our Venues | Assembly Festival",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:27Z"
+        },
+        {
+          "id": "access",
+          "label": "Access",
+          "url": "https://assemblyfestival.com/access",
+          "kind": "page",
+          "critical": false,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 915,
+          "bytes": 135700,
+          "title": "Access | Assembly Festival",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:28Z"
+        },
+        {
+          "id": "faqs",
+          "label": "FAQs",
+          "url": "https://assemblyfestival.com/faqs",
+          "kind": "page",
+          "critical": false,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 552,
+          "bytes": 171315,
+          "title": "FAQs | Assembly Festival",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:29Z"
+        },
+        {
+          "id": "api-home",
+          "label": "API: home page",
+          "url": "https://assemblyfestival.com/api/pages/home",
+          "kind": "api",
+          "critical": true,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 102,
+          "bytes": 2877,
+          "title": "",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:29Z"
+        },
+        {
+          "id": "api-whats-on",
+          "label": "API: what's on page",
+          "url": "https://assemblyfestival.com/api/pages/whats-on",
+          "kind": "api",
+          "critical": true,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 112,
+          "bytes": 841,
+          "title": "",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:29Z"
+        },
+        {
+          "id": "api-alerts",
+          "label": "API: alerts",
+          "url": "https://assemblyfestival.com/api/alerts",
+          "kind": "api",
+          "critical": false,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 322,
+          "bytes": 2,
+          "title": "",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:29Z"
+        },
+        {
+          "id": "api-sponsors",
+          "label": "API: sponsors",
+          "url": "https://assemblyfestival.com/api/sponsors",
+          "kind": "api",
+          "critical": false,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 117,
+          "bytes": 7222,
+          "title": "",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:29Z"
+        },
+        {
+          "id": "api-partners",
+          "label": "API: partners",
+          "url": "https://assemblyfestival.com/api/partners",
+          "kind": "api",
+          "critical": false,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 273,
+          "bytes": 1224,
+          "title": "",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:30Z"
+        },
+        {
+          "id": "shows-search",
+          "label": "Shows loading",
+          "url": "https://assemblyfestival.com/api/projects/search?limit=12&page=1",
+          "kind": "projects-search",
+          "critical": true,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 913,
+          "bytes": 251121,
+          "title": "",
+          "message": "240 shows found; 12/12 sample shows have performances",
+          "checked_at": "2026-08-16T14:43:31Z"
+        },
+        {
+          "id": "ticket-availability",
+          "label": "Ticket availability",
+          "url": "https://assemblyfestival.com/api/projects/search?limit=8&page=1",
+          "kind": "ticket-availability",
+          "critical": true,
+          "status": "broken",
+          "http_status": 200,
+          "response_ms": 1550,
+          "bytes": 144344,
+          "title": "",
+          "message": "0/3 sample performances returned bookable prices; first issue: The Raft of the Crab: HTTP 500",
+          "checked_at": "2026-08-16T14:43:32Z"
+        },
+        {
+          "id": "cms-health",
+          "label": "CMS health",
+          "url": "https://assemblyfestival.pazaz.studio/server/health",
+          "kind": "cms",
+          "critical": true,
+          "status": "ok",
+          "http_status": 200,
+          "response_ms": 955,
+          "bytes": 15,
+          "title": "",
+          "message": "OK",
+          "checked_at": "2026-08-16T14:43:33Z"
+        }
+      ],
+      "build": {
+        "checked_at": "2026-08-16T14:43:33Z",
+        "fingerprint": "e3b0c44298fc1c14",
+        "asset_count": 0,
+        "assets": []
+      }
     }
   ],
   "build": {
-    "checked_at": "2026-08-16T14:16:39Z",
+    "checked_at": "2026-08-16T14:43:33Z",
     "fingerprint": "e3b0c44298fc1c14",
     "asset_count": 0,
     "assets": []
